@@ -37,7 +37,7 @@
             var totalMommyCash = 0;
             for (var key in mommyCashDays) 
             {
-            	  var currentSymbol = (mommyCashDays[key].ammount < 0) ? "-$" : "+$"
+            	  var currentSymbol = (mommyCashDays[key].ammount < 0) ? "$" : "+$"
                   events+="<tr><td>" + key + "</td>";
                   events+="<td>" + currentSymbol + mommyCashDays[key].ammount + "</td>";
                   events+="<td>" + mommyCashDays[key].note + "</td></tr>";
